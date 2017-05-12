@@ -10,6 +10,11 @@ ruby -v && gem -v && gcc
 ## Site structure
 
 ## Usage
+```
+jekyll build
+- or -
 jekyll serve
+```
 
 ## Publishing
+git push origin gh-pages
