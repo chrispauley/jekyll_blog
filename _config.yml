@@ -1,0 +1,32 @@
+# Site settings
+title: Jekyll for Web Designers
+description: "Companion blog to the lynda.com course, Jekyll for Web Designers. This site is designed to present Jekyll to web designers in a clear, concise way, and provide a resource and reference for those that are new to Jekyll."
+baseurl: ""
+url: "http://chrispauley.github.io/jekyll_blog"
+tagline: "A basic guide to Jekyll"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://chrispauley.github.io/jekyll_blog" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: "chrisp18938"
+github_username:  "chrispauley"
+facebook_link: ""
+github_url: ""
+linkedin_username: "christopherpauley"
+
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
+
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .editorconfig
+  - README.md

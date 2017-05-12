@@ -1,0 +1,15 @@
+git
+# Jekyll Blog
+Online code from James Wilkerson's course on Lynda.com
+
+## Requirements
+```
+ruby -v && gem -v && gcc
+```
+
+## Site structure
+
+## Usage
+jekyll serve
+
+## Publishing

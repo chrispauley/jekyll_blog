@@ -1,0 +1,20 @@
+#################
+## npm
+#################
+node_modules
+npm-debug.log
+
+#################
+## osx
+#################
+*.DS_Store
+
+#################
+## ruby
+#################
+_site
+.sass-cache
+.jekyll-metadata
+
+Gemfile
+Gemfile.lock
