@@ -17,4 +17,9 @@ jekyll serve
 ```
 
 ## Publishing
+To create an orphan branch so that the source isn't tracked from other branches:
+```
+git checkout --orphan gh-pages
+```
+
 git push origin gh-pages
